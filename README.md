@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Notion-Inspired Workspace App (Full Stack)
 
-## Getting Started
+This is a Notion-style workspace and note-taking app I’m building as a full-stack learning project using **Next.js**, **Tailwind CSS**, and modern web dev tools.
 
-First, run the development server:
+> ⚠️ **Important:** This project has *no affiliation* with Notion Labs, Inc.  
+> It’s just for educational and portfolio purposes.
+
+---
+
+## ✨ Features
+
+- 📄 Create and delete pages
+- 🗂️ Nested page structure with collapsible sidebar
+- 🧱 (Coming soon) Rich text blocks (like Notion)
+- 🔐 (Planned) User authentication
+- 💾 (Planned) Save data with a real database
+- 📱 Responsive UI, works on all screen sizes
+
+---
+
+## 🧰 Tech Stack
+
+- **Next.js 14** – App Router, file-based routing
+- **Tailwind CSS** – Utility-first styling
+- **TypeScript** – Type-safe JavaScript
+- **Lucide Icons** – Simple, beautiful icons
+- **(Planned)** Supabase / PlanetScale for the database
+- **(Planned)** Clerk or Auth.js for authentication
+- **(Planned)** Vercel for deployment
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/LavanyaRev/notion-clone.git
+cd notion-clone
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and go to:
+👉 http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Project Structure
+php
+Copy code
+notion-clone/
+├── app/              # Pages and routing
+├── components/       # Shared UI elements
+├── styles/           # Global styles (Tailwind)
+├── public/           # Static files
+├── README.md         # You're reading it :)
+└── package.json      # Dependencies and scripts
+🗓️ Roadmap
+✅ Setup with Next.js and Tailwind
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Push to GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚧 Page creation and sidebar UI
 
-## Learn More
+🔜 Dynamic routing for nested pages
 
-To learn more about Next.js, take a look at the following resources:
+🔜 Block editor for content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔜 User auth and database integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔜 Drag-and-drop blocks
 
-## Deploy on Vercel
+🔜 Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🙋 About Me
+Hi, I’m Lavanya Revankar 👋
+I’m exploring full-stack development and love building apps that help people think better and organize their work.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: @LavanyaRev
+
+📄 License
+This project is licensed under the MIT License.
+
+⚠️ Legal Note
+This is a personal, educational project and is not affiliated with Notion Labs, Inc.
+“Notion” is a trademark of Notion Labs, Inc. This clone is built purely for learning.
+
+Thanks for checking it out! Feedback, ideas, and stars are always welcome ⭐
+
+yaml
+Copy code
+
+---
+
+✅ After pasting this into Notepad, press `Ctrl + S` to save, then push it:
+
+```bash
+git add README.md
+git commit -m "Add final formatted README"
+git push
