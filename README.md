@@ -72,9 +72,7 @@ Hi, I’m Lavanya Revankar 👋
 I’m exploring full-stack development and love building apps that help people think better and organize their work.
 
 GitHub: @LavanyaRev
-
-📄 License
-This project is licensed under the MIT License.
+LinkedIn: www.linkedin.com/in/lavanya-revankar-313040296
 
 ⚠️ Legal Note
 This is a personal, educational project and is not affiliated with Notion Labs, Inc.
